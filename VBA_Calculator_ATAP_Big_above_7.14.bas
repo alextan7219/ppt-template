@@ -48,7 +48,7 @@ Sub GeneratePowerPointFromTemplate_v1()
  
     ' Generate file name
     Dim fileNameBase As String
-    fileNameBase = "Solar_Proposal_" & ws.Range("C1").Text & "_" & ws.Range("C2").Text & "_" & ws.Range("C4").Text & "_" & ws.Range("C5").Text & "_" & ws.Range("C10").Text
+    fileNameBase = "Solar_Proposal_" & ws.Range("C2").Text & "_" & ws.Range("C2").Text & "_" & ws.Range("C4").Text & "_" & ws.Range("C5").Text & "_" & ws.Range("C10").Text
     fileNameBase = Replace(fileNameBase, "/", "-")
  
     Dim pptPath As String
